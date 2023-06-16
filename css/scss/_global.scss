@@ -1,0 +1,158 @@
+.flex {
+  display: flex;
+
+  align-items: center;
+  align-content: center;
+
+  &-justify-between {
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  border-radius: 50%;
+  width: 2.5vw;
+  height: 2.5vw;
+
+  font-weight: bold;
+  font-size: 1.625vw;
+
+  text-align: center;
+  align-self: center;
+
+  justify-content: space-around;
+  align-items: center;
+
+  &-header {
+    color: #ffffff;
+    background-color: #458FF6;
+  }
+  &-footer {
+    color: #5B9BF3;
+    background-color: #ffffff;
+  }
+}
+
+.brand-text {
+  margin-left: 0.75vw;
+
+  font-size: 1.5vw;
+  font-weight: bold;
+
+  &-header {
+    color: #000000;
+  }
+  &-footer {
+    color: #ffffff;
+  }
+}
+
+.btn-secondary {
+  cursor: pointer;
+
+  width: 11.125vw;
+  height: 3.75vw;
+
+  margin-top: 2.9375vw;
+
+  border-radius: 1.875vw;
+  border: 0.0875vw solid #458FF6;
+
+  //outline: ;
+
+  font-size: 1.125vw;
+  font-weight: bold;
+
+  background-color: rgba(0,0,0,0);
+  color: #458FF6;
+
+  transition: box-shadow 300ms 50ms linear;
+
+  &:hover {
+    //outline-width: 0.1875vw;
+    box-shadow: 0 0 0 0.125vw #458FF6;
+  }
+}
+
+.text-description {
+  padding: 0;
+  margin: 0 auto;
+
+  font-family: Mulish-Light, sans-serif;
+  font-size: 1.125vw;
+  font-weight: lighter;
+  line-height: 1.875vw;
+
+  color: #7D7987;
+}
+
+
+.side-decoration-dots {
+  position: absolute;
+  height: 7.1875vw;
+
+  &-hero {
+    top: 10vw;
+
+    width: 5.125vw;
+  }
+
+  &-download {
+    right: 0.375vw;
+
+    width: 5.125vw;
+  }
+
+  &-carousel {
+    width: 8.25vw;
+
+    &-left {
+      left: 12vw;
+      top: 259vw;
+      z-index: -1;
+    }
+    &-right {
+      right: 10.5vw;
+      top: 239.75vw;
+      z-index: 1;
+    }
+  }
+
+  &-article {
+    left: 12vw;
+    top: 292.5625vw;
+
+    width: 8.25vw;
+
+    z-index: -1;
+  }
+
+  &-footer {
+    &-left {
+      left: 0;
+      top: 410.5625vw;
+
+      width: 7.0625vw;
+      height: 6vw;
+
+      z-index: 1;
+    }
+    &-right {
+      right: 5.6875vw;
+      top: 382.5625vw;
+
+      width: 8.25vw;
+
+      z-index: -1;
+    }
+  }
+}
+
+.w-35vw {
+  width: 35vw;
+  flex-basis: 35vw;
+}
+
+.border {
+  border: 3px solid black;
+}

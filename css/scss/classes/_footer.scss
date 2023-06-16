@@ -1,0 +1,54 @@
+footer {
+  //width: 1600px;
+  height: 30vw;
+
+  margin-top: 7.5625vw;
+  padding: 7.4375vw 11.875vw;
+
+  overflow: hidden;
+
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+  color: #ffffff;
+
+  a:not(.logo a) {
+    display: block;
+    padding-right: 0.25vw;
+
+    font-size: 1.125vw;
+    line-height: 2.75vw;
+
+    color: #FFFFFF;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6.3125vw;
+
+  }
+
+  .footer-description {
+    width: 25.4375vw;
+  }
+
+  h4 {
+    margin-top: 1vw;
+    margin-bottom: 0;
+
+    font-size: 1.25vw;
+  }
+
+  .list {
+    font-family: Mulish-Light, sans-serif;
+    font-size: 1.125vw;
+    line-height: 2.375vw;
+
+    color: #FFFFFF;
+  }
+
+  .footer-brand-description {
+    font-size: 1.125vw;
+    line-height: 1.75vw;
+  }
+}

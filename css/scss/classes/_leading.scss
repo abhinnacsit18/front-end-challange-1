@@ -1,0 +1,21 @@
+.leading-healthcare-providers {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 79.5625vw;
+
+  margin-top: 21.625vw;
+  margin-left: 8.4375vw;
+
+  .lhp-text {
+    width: 28vw;
+
+    margin-top: 3.5625vw;
+    padding-right: 2.375vw;
+
+    hr {
+      margin-left: 0;
+    }
+  }
+}

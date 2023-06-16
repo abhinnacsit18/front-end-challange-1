@@ -1,0 +1,21 @@
+.download-app {
+  display: flex;
+
+  justify-content: space-between;
+
+  width: 72.25vw;
+
+  margin-left: 17.625vw;
+  margin-top: 17.625vw;
+
+  .da-text {
+    width: 24vw;
+
+    margin-top: 3.5625vw;
+    //padding-right: 4.375vw;
+
+    hr {
+      margin-left: 0;
+    }
+  }
+}

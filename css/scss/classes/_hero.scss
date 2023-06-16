@@ -1,0 +1,64 @@
+.hero {
+  display: flex;
+  width: 76vw;
+
+  margin-top: 1vw;
+  margin-left: 13.8125vw;
+
+  justify-content: space-between;
+
+  .hero-description {
+    width: 27.8125vw;
+    height: 21.25vw;
+
+    margin: 7vw 0 0;
+    padding: 0;
+
+    h2 {
+      padding: 0;
+      margin: 0;
+
+      font-size: 3vw;
+      font-weight: bold;
+      line-height: 3.5vw;
+    }
+
+    p {
+      padding: 0;
+      margin-top: 1.4375vw;
+
+      font-size: 1.3125vw;
+      font-weight: 300;
+      line-height: 2vw;
+
+      letter-spacing: -0.0625vw;
+
+      color: #7D7987;
+    }
+
+    button {
+      cursor: pointer;
+
+      width: 12.5vw;
+      height: 3.75vw;
+
+      margin-top: 2.9375vw;
+
+      border-radius: 1.875vw;
+      border: none;
+
+      font-size: 1.125vw;
+      font-weight: bold;
+
+      background-color: #458FF6;
+      color: #ffffff;
+
+      transition: background-color 300ms 50ms ease-in-out;
+
+      &:hover {
+        background-color: #3772C2;
+      }
+    }
+  }
+}
+
